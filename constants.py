@@ -6,8 +6,8 @@
 # ============================================================
 
 # --- Your ship ---
-SHIP_NAME = "Victoria Express"
-CREW_DESCRIPTION = "Python enthusiasts learning how to code"
+SHIP_NAME = "Flying dutchmen"
+CREW_DESCRIPTION = "plunder the ships of the unfortunate souls that cross our path"
 
 # --- Starting resources ---
 STARTING_OXYGEN = 10
