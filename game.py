@@ -3,6 +3,8 @@ from engine.galaxy import create_galaxy
 from engine.journey import travel
 import constants
 
+def should_stop():
+    answer = input("do you want to stop here (y/n)")
 
 def main():
     show_intro(constants.SHIP_NAME, constants.CREW_DESCRIPTION)
@@ -12,8 +14,10 @@ def main():
         constants.STARTING_OXYGEN,
         constants.STARTING_HULL,
         constants.SHIP_NAME,
+        should_stop,
     )
 
 
 if __name__ == "__main__":
     main()
+

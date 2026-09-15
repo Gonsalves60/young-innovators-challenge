@@ -54,3 +54,16 @@ def process_water_planet(oxygen, hull):
 
 def apply_jump_cost(oxygen):
     return oxygen - OXYGEN_COST_PER_JUMP
+
+
+
+def process_deasese(oxygen, hull, danger_level):
+    damage = RAIDER_HULL_DAMAGE_BASE + (danger_level * 0)
+    new_hull = hull - damage
+    new_oxygen = oxygen - RAIDER_OXYGEN_COST
+    narration = (
+        f"  A raviouse virus ramgages the crew! "
+        f"{damage} hull damaged due to corosive virus  {RAIDER_OXYGEN_COST} extra oxygen in the struggle.(laced with the carah)"
+        f" the crew have been infected and the ship is in quarantine for 2 weeks"
+    )   
+    return new_oxygen, new_hull, narration
