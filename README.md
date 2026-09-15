@@ -49,3 +49,12 @@ engine/         Supplied game machinery, revealed over time
 ```
 
 Do not worry if the engine looks unfamiliar. That is intentional. By the final session, you will understand how the whole game fits together.
+
+https://gist.github.com/lauval/6356f4f4622a05f205144855c8ec7d7a
+
+
+
+
+
+
+
